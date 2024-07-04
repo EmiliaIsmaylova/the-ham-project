@@ -1,0 +1,343 @@
+@media screen and (max-width: 1188px) {
+  .nav ul {
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(66, 66, 66, 0.603) ;
+    width: 200px;
+    height: 80vh;
+    margin-right: 0;
+    position: fixed;
+    top: 0;
+    left: -200px	;
+    padding-top: 50px;
+    transition: 1s all ease-in-out;
+    z-index: 999;
+    gap: 40px;
+
+  }
+
+  #resp_check:checked ~ .nav ul {
+    left: 0;
+  }
+  
+  #resp_icon{
+    display: block;
+  }
+
+  .nav img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+  }
+  .nav li:first-child{
+    text-decoration: none;
+  }
+  .header_top{
+    justify-content: flex-end;
+    padding-right: 100px;
+    gap: 40px;
+  }
+  
+  .header_text{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  text-align: center;
+}
+  
+  .button_box{
+    justify-content: center;
+  }
+
+  .btn-box {
+  width: 120px;
+  height: 70px;
+  font-size: 80%;
+}
+
+  .image_text{
+    flex-direction: column;
+  }
+
+  .image_text img{
+    width: 192px;
+    height: 139px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image_text p{
+    width: 800px;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  .gallery {
+  max-width: 700px;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+}
+
+  .fourth_box {
+  max-width: 800px;
+}
+
+.final_grid {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(auto-fill, minmax(277px, 1fr));
+}
+.fifth_flex h4 {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media screen and (max-width: 904px) {
+  .header_text h1{
+    font-size: 115%;
+  }
+  .header_text h2{
+    font-size: 270%;
+  }
+  .header_text p{
+    font-size: 130%;
+  }
+
+.btn {
+  width: 139px;
+  font-size: 70%;
+}
+.image_text p{
+  width: 600px;
+  text-align: center;
+  font-size: 80%;
+}
+.second_container h2{
+  width: 500px;
+  font-size: 150%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second_container p{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 70%;
+}
+  
+.second_btn{
+  width: 129px;
+  font-size: 60%;
+}
+
+.gallery {
+  max-width: 500px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.fourth_box {
+  max-width: 500px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.final_grid {
+  max-width: 550px;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+}
+.green_plus {
+  width: 100px;
+  height: 53px;
+  font-size: 60%;
+  gap: 10px;
+}
+
+.card img{
+  width: 58px;
+  height: 58px;
+}
+
+.card p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  font-size: 80%;
+}
+
+.card:nth-child(2) img,
+.card:nth-child(4) img{
+  width: 93px;
+  height: 50px ;
+}
+
+.card:nth-child(2) p,
+.card:nth-child(4) p{
+  margin-top: 40px;
+}
+.fifth_flex h4 {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+@media screen and (max-width: 723px){
+  .header_text h1{
+    font-size: 100%;
+  }
+  .header_text h2{
+    font-size: 210%;
+  }
+  .header_text p{
+    font-size: 110%;
+  }
+  .logo_top {
+    width: 120px;
+    height: 120px;
+  }
+  .flex_cards{
+    display: grid;
+  }
+
+.card p{
+  width: 200px;
+  font-size: 100%;
+}
+.btn-box {
+  width: 70px;
+  height: 70px;
+  font-size: 50%;
+}
+.image_text p {
+  width: 300px;
+  text-align: center;
+  font-size: 70%;
+}
+.second_container h2 {
+  width: 300px;
+  font-size: 110%;
+}
+.second_container p {
+  width: 300px;
+  font-size: 60%;
+}
+.second_btn {
+  width: 120px;
+  font-size: 30%;
+}
+.btn-3 {
+  width: 102px;
+  font-size: 76%;
+}
+.gallery {
+  max-width: 300px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.fourth_box {
+  max-width: 300px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.fifth_container h3 {
+  font-size: 103%;
+}
+.fifth_flex h4 {
+  width: 300px;
+}
+
+}
+
+@media screen and (max-width: 584px){
+  .card {
+    height: 150px;
+    padding-top: 21px;
+    font-size: 56%;
+}
+.card:nth-child(2), .card:nth-child(4) {
+  background-color: var(--green);
+  padding-top: 29px;
+  color: var(--white);
+}
+.card:nth-child(2) p, .card:nth-child(4) p {
+  margin-top: 20px;
+}
+.card:nth-child(3) p {
+  margin-top: 25px;
+}
+  .header_top {
+    padding-right: 15px;
+    gap: 15px;
+}
+  .slider_container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  .header_text{
+    left: 10%;
+  }
+
+.header_text h1{
+  font-size: 95%;
+}
+
+.header_text h2{
+  font-size: 140%;
+}
+
+.header_text p{
+  font-size: 100%;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  padding-top: 10px;
+  font-size: 25%;
+}
+.btn-box {
+  width: 50px;
+  height: 50px;
+  font-size: 10%;
+}
+.btn-3 {
+  width: 65px;
+  font-size: 40%;
+}
+.gallery {
+  max-width: 300px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.load-btn {
+  width: 151px;
+  height: 45px;
+  font-size: 63%;
+}
+.fourth_box {
+  max-width: 200px;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+}
+
+#fifth_image {
+  width: 100px;
+  height: 100px;
+}
+.fifth_flex h4 {
+  width: 200px;
+  font-size: 70%;
+}
+.final_grid {
+  max-width: 200px;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+}
+
+} 
+
+@media screen and (max-width:420px) {
+  .footer_container {
+    max-width: 200px;
+    font-size: 60%;
+    text-align: center;
+}
+}
